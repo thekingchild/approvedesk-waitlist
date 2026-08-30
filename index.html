@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ApproveDesk — Every approval, finally in sync</title>
+    <meta name="description" content="ApproveDesk brings requests, reviewers, and decisions into one clear, accountable workflow.">
+    <meta name="theme-color" content="#010101">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <main class="page-shell" id="waitlist">
+        <section class="hero-section">
+            <div class="hero-background" aria-hidden="true">
+                <img src="images/background-design.svg" alt="">
+            </div>
+            <div class="hero-content">
+                <header class="hero-top">
+                    <div class="brand" aria-label="ApproveDesk">
+                        <span class="brand-mark">A</span>
+                        <span>ApproveDesk</span>
+                    </div>
+                    <nav data-approvedesk-auth></nav>
+                </header>
+                <div class="hero-copy">
+                    <h1>Every approval, finally in sync.</h1>
+                    <div class="action-column">
+                        <p>ApproveDesk brings requests, reviewers, and decisions into one clear, accountable workflow.</p>
+                        <form class="waitlist-form" id="waitlist-form">
+                            <label class="sr-only" for="email">Work email</label>
+                            <input id="email" name="email" type="email" placeholder="Enter your work email" required autocomplete="email">
+                            <button type="submit" aria-label="Join waitlist"><span>→</span></button>
+                        </form>
+                        <div class="success" id="waitlist-success" role="status" hidden>You’re on the list — we’ll be in touch soon.</div>
+                        <div class="social-proof">
+                            <div class="avatars" aria-hidden="true">
+                                <img src="images/avatar-1.webp" alt="">
+                                <img src="images/avatar-2.webp" alt="">
+                                <img src="images/avatar-3.webp" alt="">
+                            </div>
+                            <span>Join 2,000+ teams already on the list</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#waitlist">About</a>
+                <a href="#waitlist">Product</a>
+                <a href="#waitlist">Security</a>
+                <a href="#waitlist">Careers</a>
+                <a href="#waitlist">Contact</a>
+                <a href="#waitlist">Privacy</a>
+                <a href="#waitlist">Terms</a>
+                <a href="#waitlist">Help center</a>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 ApproveDesk</span>
+                <span>Built for better decisions</span>
+            </div>
+        </footer>
+    </main>
+    <script src="js/waitlist.js"></script>
+</body>
+</html>
