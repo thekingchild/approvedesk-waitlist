@@ -1,19 +1,12 @@
 (function () {
-    var form = document.getElementById("waitlist-form");
-    var success = document.getElementById("waitlist-success");
+    var nav = document.querySelector("[data-approvedesk-auth]");
 
-    if (!form || !success) {
+    if (!nav || nav.childElementCount > 0) {
         return;
     }
 
-    form.addEventListener("submit", function (event) {
-        event.preventDefault();
-
-        if (!form.reportValidity()) {
-            return;
-        }
-
-        form.hidden = true;
-        success.hidden = false;
-    });
+    nav.setAttribute("data-state", "guest");
+    nav.innerHTML =
+        '<a href="/login" data-auth="login">Log in</a>' +
+        '<a href="/register" data-auth="register">Sign up</a>';
 })();

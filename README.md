@@ -11,12 +11,12 @@ images/
 
 Asset URLs are relative (`css/app.css`, `images/background-design.svg`).
 
-The header includes the empty ApproveDesk auth hook:
+The hero CTA is the ApproveDesk auth hook — keep it empty:
 
 ```html
 <nav data-approvedesk-auth></nav>
 ```
 
-When the files live in an ApproveDesk `website/` folder, Laravel fills that nav with Log in / Sign up / Dashboard. Standalone, the empty nav stays hidden.
+When the files live in an ApproveDesk `website/` folder, Laravel fills that nav with **Log in** / **Sign up** (or **Dashboard** if already signed in). Standalone, `js/waitlist.js` shows the guest buttons so the CSS can be previewed; it does nothing if Laravel already injected the links.
 
-The waitlist form is client-side only: a valid email shows “You’re on the list — we’ll be in touch soon.” It does not post to a server.
+Style the hook from this site’s CSS: `[data-approvedesk-auth]`, `[data-auth="login"]`, `[data-auth="register"]`, `[data-auth="dashboard"]`.
