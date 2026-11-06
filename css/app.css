@@ -154,20 +154,6 @@ a { color: inherit; text-decoration: none; }
     max-width: 900px;
 }
 
-.hero-notice {
-    display: inline-block;
-    margin: 0 0 14px;
-    padding: 5px 10px;
-    border: 1px solid rgba(188, 143, 255, .55);
-    border-radius: 999px;
-    background: rgba(86, 30, 164, .22);
-    color: #e7d7ff;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: -.01em;
-    line-height: 1.3;
-}
-
 h1 {
     max-width: 900px;
     margin: 0;
