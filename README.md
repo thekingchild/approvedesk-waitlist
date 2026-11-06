@@ -4,9 +4,6 @@ This folder is a complete HTML/CSS/JS site. Open `index.html` in a browser or co
 
 ```
 index.html
-robots.txt        search + AI crawler rules
-sitemap.xml
-llms.txt          plain-text summary for AI assistants
 site.webmanifest
 css/app.css
 js/waitlist.js
@@ -25,6 +22,6 @@ When the files live in an ApprovalDesk `website/` folder, Laravel fills that nav
 
 Style the hook from this site’s CSS: `[data-approvedesk-auth]`, `[data-auth="login"]`, `[data-auth="register"]`, `[data-auth="dashboard"]`.
 
-## Search and AI search
+## Search
 
-Canonical URL, Open Graph and JSON-LD all point at `https://approvaldesk.ng/`. If the page is served from another URL, update `index.html`, `robots.txt`, `sitemap.xml` and `llms.txt` together. `robots.txt`, `sitemap.xml` and `llms.txt` only work when served from the domain root.
+This page is marked `noindex` so it doesn't compete with the marketing site at https://approvaldesk.ng (repo: thekingchild/ApprovalDesk-Home), which owns the domain's search setup, `robots.txt`, `sitemap.xml` and `llms.txt`. Don't add a canonical URL, structured data or root crawler files here. If this page gets its own public URL and should appear in search, switch `robots` to `index, follow` and add a canonical and absolute `og:image` for that URL.
