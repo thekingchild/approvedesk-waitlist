@@ -1,0 +1,24 @@
+# ApproveDesk
+
+> ApproveDesk (also written "ApprovalDesk") is audit-ready approval workflow software. It brings requests, reviewers, and decisions into one clear, accountable workflow, so every approval is in sync and has a record behind it.
+
+ApproveDesk is a web application for teams and organisations that need approvals to be traceable. Requests are raised in one place, routed to the right reviewers, and each decision is recorded so it can be audited later. ApproveDesk is currently accepting sign-ups for early access.
+
+- Website: https://approvaldesk.ng/
+- Category: Business software, approval workflow management
+- Platform: Web
+- Market: Nigeria (en-NG)
+
+## Pages
+
+- [Home](https://approvaldesk.ng/): Overview of ApproveDesk and early-access sign-up
+- [How it works](https://approvaldesk.ng/#how): How requests move from submission to decision
+- [Features](https://approvaldesk.ng/#features): Product capabilities
+- [Industries](https://approvaldesk.ng/#industries): Who ApproveDesk is built for
+- [Security](https://approvaldesk.ng/#security): How approval data is protected
+- [FAQ](https://approvaldesk.ng/#faq): Common questions
+
+## Legal
+
+- [Terms](https://approvaldesk.ng/terms/)
+- [Privacy](https://approvaldesk.ng/privacy/)
