@@ -1,6 +1,6 @@
 {
-    "name": "ApproveDesk",
-    "short_name": "ApproveDesk",
+    "name": "ApprovalDesk",
+    "short_name": "ApprovalDesk",
     "description": "Audit-ready approval workflow software.",
     "start_url": "/",
     "display": "browser",

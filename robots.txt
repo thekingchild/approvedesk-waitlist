@@ -1,4 +1,4 @@
-# ApproveDesk — search and AI crawlers are welcome.
+# ApprovalDesk — search and AI crawlers are welcome.
 User-agent: *
 Allow: /
 Disallow: /login
